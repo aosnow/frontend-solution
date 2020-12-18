@@ -13,6 +13,8 @@
 - 使用 [node-html-parser](https://www.npmjs.com/package/node-html-parser) 手动解析成 rich-text 风格的节点数组
 - 在解析过程中对 rich-text 节点注入 class 或者 style 样式
 
+> 注意由于引用第三方包，请将对应的 page 进行分包到子包中，以优化主包大小。
+
 ### 1、编辑富文本
 富文本工具，请自行解决，例如：
 ```html
